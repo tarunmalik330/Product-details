@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap%27");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+.card_box {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.2);
+}
+.z_index_3 {
+  z-index: 3;
+}
+.z_index_4 {
+  z-index: 4;
+}
+.box_img {
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: inherit;
+  padding: 27px 44px;
+}
+.bradius_10 {
+  border-radius: 10px;
+}
+.mb_24 {
+  margin-bottom: 24px;
+}
+.product_btn {
+  padding: 15px 25px;
+  border-radius: 9.219px;
+  border: inherit;
+  color: black;
+  background: #fff;
+  box-shadow: 3px 5px 22px 0px rgba(0, 0, 0, 0.08);
+}
+.product_btn:hover {
+  background: #f40;
+  color: white;
+  box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.12);
+  border: inherit;
+}
+.next_btn {
+  padding: 12px 18px;
+  border-radius: 9px;
+  border: 1px solid #9c9c9c;
+  background: rgba(196, 196, 196, 0);
+}
+.box_text {
+  padding: 18px 30px 18px 18px;
+}
+.opacity-8 {
+  opacity: 0.8;
+}
+.mw-90 {
+  max-width: 90px;
+}
+.mb_21 {
+  margin-bottom: 21px;
+}
+.pt_28 {
+  padding-top: 28px;
+}
+.lh_125 {
+  line-height: 125%;
+}
+.lh_185 {
+  line-height: 185.5%;
+}
+.lh_134 {
+  line-height: 134.5%;
+}
+.lh_188 {
+  line-height: 188.889%;
+}
+.lh_150 {
+  line-height: 150%;
+}
+.pb-24 {
+  padding-bottom: 24px;
+}
+.mw_137 {
+  max-width: 137px;
+}
+.dis_img {
+  left: -5%;
+  top: -7%;
+}
+.grey-box {
+  width: 35px;
+  height: 35px;
+  padding: 2px !important;
+  border-radius: 2px;
+  border: 1px solid #d5d5d5;
+  background: rgba(196, 196, 196, 0);
+}
+.toggle_btn {
+  width: 108px;
+  height: 45px;
+  border-radius: 21px;
+  border: 1px solid #e8e8e8;
+  background: rgba(196, 196, 196, 0);
+}
+.qty_btn {
+  border: transparent;
+  background-color: transparent;
+}
+.button {
+  padding: 10px 32px;
+  border-radius: 21px;
+  background-color: var(--bg-green);
+}
+.best_button {
+  padding: 4px 11px;
+  border-radius: 6px;
+  border: 0.311px solid #e8e8e8;
+  background-color: var(--bg-green);
+}
+.cardbox_btn {
+  padding: 8px 32px;
+  border-radius: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+}
+.px-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.slick-track {
+  padding: 5px !important;
+}
+.line {
+  opacity: 0.5;
+  background: #000;
+  height: 1px;
+}
+.mw_624 {
+  max-width: 624px;
+}
+.mh_588 {
+  max-height: 588px;
+}
+.mw_90 {
+  max-width: 90px;
+}
+.opacity_7 {
+  opacity: 0.7;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #ff0000 !important;
+  background-color: inherit !important;
+  border-bottom: 3px solid #ff0000;
+}
+.nav-pills .nav-link {
+  border-radius: 0 !important;
+}
+.nav-link {
+  margin-right: 90px !important;
+  padding: 0 !important;
+}
+.sale-card {
+  border-radius: 17px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #fff;
+}
+.border-radius-17 {
+  border-radius: 17px;
+}
+.card_text {
+  padding: 30px 14px;
+}
+.animation {
+  animation: swing 2s linear infinite;
+}
+.pt_140 {
+  padding-top: 140px !important;
+}
+@keyframes swing {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.duration_300 {
+  transition: 300ms linear;
+}
+.pointer_event_none {
+  pointer-events: none;
+}
+@media (min-width: 992px) {
+  .rectangle {
+    height: 80px;
+    border: 1px solid #dee2e6;
+    background: #fff;
+    box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.1);
+  }
+  .mw_448 {
+    max-width: 448px;
+  }
+  .pt_87 {
+    padding-top: 87px;
+  }
+}
+@media (max-width: 992px) {
+  .mobile_view {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: white;
+    transition: 300ms linear;
+  }
+  .overflow_hidden {
+    overflow: hidden;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    width: 30px;
+    min-height: 3px;
+    background-color: red;
+    transition: 300ms linear;
+  }
+  .cross .line1 {
+    transform: rotate(50deg) translate(17px, 14px);
+  }
+  .cross .line2 {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  .cross .line3 {
+    transform: rotate(-50deg) translateY(-50%);
+  }
+}

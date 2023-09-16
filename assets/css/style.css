@@ -11,6 +11,19 @@
   background: #fff;
   box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.135);
 }
+.footer_link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  height: 2px;
+  background-color: white;
+  bottom: 0;
+}
+.footer_link:hover::after {
+  width: 100%;
+  transition: all 300ms linear;
+}
 .z_index_3 {
   z-index: 3;
 }

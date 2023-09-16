@@ -1,6 +1,7 @@
 $('.responsive').slick({
     dots: false,
     infinite: true,
+    arrows: false,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -33,6 +34,7 @@ $('.responsive').slick({
 $('.myslider').slick({
     dots: false,
     infinite: true,
+    arrows: false,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -71,6 +73,7 @@ $('.myslider').slick({
 });
 $('.custum-slider').slick({
     dots: false,
+    arrows: false,
     infinite: true,
     speed: 300,
     slidesToShow: 4,

@@ -17,7 +17,7 @@
 .z_index_4 {
   z-index: 4;
 }
-.pr_12{
+.pr_12 {
   padding-right: 12px;
 }
 .box_img {
@@ -116,6 +116,14 @@
   padding: 10px 32px;
   border-radius: 21px;
   background-color: var(--bg-green);
+  transition: 0.3s linear;
+  border: 2px solid white;
+  color: white;
+}
+.button:hover {
+  background-color: white;
+  border: 2px solid var(--bg-green) !important;
+  color: var(--bg-green);
 }
 .best_button {
   padding: 4px 11px;

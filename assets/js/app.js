@@ -5,7 +5,7 @@ $('.responsive').slick({
     autoplay: true,
     cssEase: 'linear',
     autoplaySpeed: 0,
-    speed: 3000,
+    speed: 4000,
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
@@ -41,7 +41,7 @@ $('.slick_slider').slick({
     autoplay: true,
     cssEase: 'linear',
     autoplaySpeed: 0,
-    speed: 3000,
+    speed: 4000,
     slidesToShow: 4,
     slidesToScroll: 1,
     // rtl:true,

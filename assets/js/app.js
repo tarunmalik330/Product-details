@@ -25,6 +25,7 @@ $('.responsive').slick({
         {
             breakpoint: 630,
             settings: {
+                autoplay: true,
                 slidesToShow: 1,
                 slidesToScroll: 1
             }
@@ -63,7 +64,7 @@ $('.myslider').slick({
             }
         },
         {
-            breakpoint: 700,
+            breakpoint: 770,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1

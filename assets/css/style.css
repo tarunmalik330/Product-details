@@ -61,9 +61,10 @@
   border: inherit;
 }
 .next_btn {
-  padding: 12px 18px;
+  width: 92px;
+  height: 47px;
   border-radius: 9px;
-  border: 1px solid #9c9c9c;
+  border: 1px solid #9C9C9C;
   background: rgba(196, 196, 196, 0);
 }
 .box_text {

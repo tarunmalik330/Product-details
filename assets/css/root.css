@@ -73,6 +73,7 @@
 }
 .fw-400:hover {
   -webkit-text-stroke: 1px #000000;
+  transition: 0.3s linear;
 }
 .fw_500 {
   font-weight: var(--fw-500);

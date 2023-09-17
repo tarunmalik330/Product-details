@@ -151,7 +151,19 @@
     --fs-4xl: 10px;
   }
 }
-@media (min-width: 1300px) and (max-width: 1400px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  :root {
+    /* font-size */
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-lg: 16px;
+    --fs-xl: 24px;
+    --fs-xxl: 25px;
+    --fs-3xl: 24px !important;
+    --fs-4xl: 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
   :root {
     /* font-size */
     --fs-sm: 16px;

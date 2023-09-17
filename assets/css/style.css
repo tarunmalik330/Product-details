@@ -64,7 +64,7 @@
   width: 92px;
   height: 47px;
   border-radius: 9px;
-  border: 1px solid #9C9C9C;
+  border: 1px solid #9c9c9c;
   background: rgba(196, 196, 196, 0);
 }
 .box_text {
@@ -163,12 +163,6 @@
   background: #000;
   height: 1px;
 }
-.mw_624 {
-  max-width: 624px;
-}
-.mh_588 {
-  max-height: 588px;
-}
 .mw_90 {
   max-width: 90px;
 }
@@ -235,6 +229,12 @@
   .pt_87 {
     padding-top: 87px;
   }
+  .mw_624 {
+    max-width: 624px;
+  }
+  .mh_588 {
+    max-height: 588px;
+  }
 }
 @media (max-width: 992px) {
   .mobile_view {
@@ -267,5 +267,10 @@
   }
   .cross .line3 {
     transform: rotate(-50deg) translateY(-50%);
+  }
+}
+@media (min-width: 995px) and (max-width: 1024px) {
+  .pt_140 {
+    padding-top: 0 !important;
   }
 }

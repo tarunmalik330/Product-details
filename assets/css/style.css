@@ -122,8 +122,8 @@
   border: 1px solid #e8e8e8;
   background: rgba(196, 196, 196, 0);
 }
-.top_3{
-  top: -3%;
+.top_3 {
+  top: -3px;
 }
 .qty_btn {
   border: transparent;

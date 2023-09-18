@@ -125,6 +125,10 @@
 .top_3 {
   top: -3px;
 }
+.footer_icon:hover {
+  transform: scale(1.3);
+  transition: 0.3s linear;
+}
 .qty_btn {
   border: transparent;
   background-color: transparent;

@@ -128,7 +128,7 @@
 }
 .button {
   padding: 10px 32px;
-  border-radius: 21px;
+  border-radius: 50px;
   background-color: var(--bg-green);
   transition: 0.3s linear;
   border: 2px solid white;

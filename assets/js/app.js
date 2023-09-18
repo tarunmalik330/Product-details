@@ -15,7 +15,7 @@ $('.responsive').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false,
             }
         },
         {
@@ -52,7 +52,7 @@ $('.slick_slider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false,
             }
         },
         {
@@ -85,7 +85,7 @@ $('.myslider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false,
             }
         },
         {
@@ -125,7 +125,7 @@ $('.custum-slider').slick({
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false,
             }
         },
         {

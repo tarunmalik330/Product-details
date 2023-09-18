@@ -131,7 +131,7 @@
   :root {
     /* font-size */
     --fs-sm: 16px;
-    --fs-md: 18px;
+    --fs-md: 14px;
     --fs-lg: 16px;
     --fs-xl: 24px;
     --fs-xxl: 25px;
@@ -143,7 +143,7 @@
   :root {
     /* font-size */
     --fs-sm: 16px;
-    --fs-md: 18px;
+    --fs-md: 14px;
     --fs-lg: 16px;
     --fs-xl: 24px;
     --fs-xxl: 25px;

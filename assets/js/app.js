@@ -151,31 +151,22 @@ function openNav() {
     document.body.classList.toggle("overflow_hidden");
     document.getElementById("menubtn-icon").classList.toggle("cross")
 }
-let display = document.querySelector('.counter-display')
-let subtract = document.querySelector('.counter-subtract')
-let add = document.querySelector('.counter-add')
-let count = 1;
-UpdateDisplay();
+let button = document.getElementById("counter-subtract")
+let p = document.getElementById("number")
+let button1 = document.getElementById("counter-add")
 
-add.addEventListener("click", () => {
-    count++;
-    UpdateDisplay();
-});
-subtract.addEventListener("click", () => {
-    count--;
-    UpdateDisplay();
-});
-function UpdateDisplay() {
-    display.innerHTML = count;
-};
+button1.addEventListener("click", function () {
+    p.innerHTML = +p.innerHTML + 1
+})
 
-$(document).click(function (event) {
-    if (
-        $('.toggle > input').is(':checked') &&
-        !$(event.target).parents('.toggle').is('.toggle')
-    ) {
-        $('.toggle > input').prop('checked', false);
+button.addEventListener("click", function () {
+    if (p.innerHTML == 0) {
+        button.classList.add("disable")
+    } else if (p.innerHTML > 0) {
+        button.classList.remove("disable")
+        p.innerHTML = p.innerHTML - 1
     }
+
 })
 setTimeout(() => {
     console.log("Delayed for 5 second.");
